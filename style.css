@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#editor,
+#preview {
+  flex: 50%;
+  height: 100vh;
+  padding: 1em;
+}
+
+#editor {
+  border: 0;
+  background-color: #eceff1;
+}
